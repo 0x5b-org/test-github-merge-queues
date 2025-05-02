@@ -1,0 +1,1 @@
+{"on":["pull_request","merge_group"],"jobs":{"placeholder":{"if":"github.event_name != 'pull_request'","runs-on":"ubuntu-latest","steps":[{"run":"sleep 10"},{"run":"[[ \"${{ github.event.merge_group.head_commit.message }}\" == *\"(conflicting)\"* ]]"}]}}}
