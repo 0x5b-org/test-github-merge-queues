@@ -1,0 +1,1 @@
+{"on":["pull_request","merge_group"],"jobs":{"placeholder":{"runs-on":"ubuntu-latest","steps":[{"run":"sleep 10"},{"run":"test \"success\" = \"failure\""}]}}}
