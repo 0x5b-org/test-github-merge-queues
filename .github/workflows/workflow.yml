@@ -1,0 +1,1 @@
+{"on":["pull_request","merge_group"],"jobs":{"placeholder":{"if":"github.event_name != 'pull_request'","runs-on":"ubuntu-latest","steps":[{"run":"sleep 10"},{"uses":"gsactions/commit-message-checker@v2","with":{"pattern":"\\(OK\\)","checkAllCommitMessages":true,"accessToken":"${{ secrets.GITHUB_TOKEN }}"}}]}}}
