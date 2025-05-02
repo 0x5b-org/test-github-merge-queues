@@ -1,0 +1,1 @@
+{"on":["pull_request","merge_group"],"jobs":{"placeholder":{"if":"github.event_name != 'pull_request'","runs-on":"ubuntu-latest","steps":[{"run":"sleep 10"},{"uses":"huggingface/action-check-commits@v1.0.0","with":{"forbidden-words":"(conflicting)"}}]}}}
