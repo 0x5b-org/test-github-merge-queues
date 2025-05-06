@@ -1,0 +1,1373 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1008 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1009 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1010 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1011 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1012 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1013 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1014 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1015 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1016 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1017 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1020 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1021 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1022 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1023 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1026 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1027 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1028 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1029 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1030 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1031 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1033 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1032 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1034 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1036 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1037 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1038 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1039 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1040 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1041 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1042 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1044 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+  "Merge pull request #1045 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Make feature 2",
+  "Merge pull request #1046 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+  "Merge pull request #1047 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #968 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #970 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #972 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #974 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #976 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #978 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #980 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #982 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #984 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #986 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #988 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #990 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #992 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #994 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #996 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #998 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1000 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1002 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1004 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 1",
+  "Merge pull request #1007 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@false/conflicting2@true/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-1
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: false, conflicting 2: true, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #929 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #931 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #933 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #935 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@1/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 1, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #937 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #939 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #941 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #943 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #945 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #947 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #949 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #951 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@1/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 1, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #953 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #955 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #957 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #959 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@1/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 1, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #961 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@0/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 0, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #963 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@ALLGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: ALLGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 0, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+]
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 1 state should meet expectations 1`] = `
+{
+  "isMerged": false,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > PR 2 state should meet expectations 1`] = `
+{
+  "isMerged": true,
+}
+`;
+
+exports[`Merge Queue Workflow (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1) > the main branch changes should meet expectations 1`] = `
+[
+  "Add workflow to main branch",
+  "Make feature 2",
+  "Merge pull request #967 from 0x5b-org/merge-queue/mergeMethod/MERGE/conflicting1@true/conflicting2@false/min-entries@2/max-entries@2/max-builds@2/grouping-strategy@HEADGREEN/delay@15/wait-minutes@1/feature-2
+
+Merge Queue (mergeMethod: MERGE, conflicting 1: true, conflicting 2: false, minEntries: 2, maxEntries: 2, maxBuilds: 2, groupingStrategy: HEADGREEN, delay: 15, waitMinutes: 1)",
+]
+`;
