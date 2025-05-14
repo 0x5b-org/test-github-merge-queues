@@ -1,0 +1,1 @@
+{"on":["pull_request","merge_group"],"jobs":{"merge_queue_check":{"if":"github.event_name != 'pull_request'","runs-on":"ubuntu-latest","steps":[{"uses":"actions/checkout@v4","with":{"fetch-depth":0}},{"run":"sleep 10"},{"run":"! git log --format=%s origin/mutated-main/main..HEAD | grep '(conflicting)'"}]}}}
