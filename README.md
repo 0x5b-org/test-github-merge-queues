@@ -50,3 +50,22 @@ To run the app locally, use the following command:
 ```
 GITHUB_APP_PRIVATE_KEY=$(cat ~/Downloads/repository-config-tester.2025-03-14.private-key.pem) GITHUB_TOKEN=$(gh auth token --user=jonathanmorley) pnpm vitest run
 ```
+
+## Extra Tests
+
+### Non-ordered queueing
+
+PR-1 gets enqueued (long tests)
+Midway through, PR-2 gets enqueued (short tests)
+Test whether:
+  * PR-2 gets merged when its tests complete?
+  * it waits for PR-1 to be merged (is the queue FIFO)?
+
+
+### Mid-queue merge conflicts
+
+PR-1 gets enqueued (long enough tests to enqueue 2 while its in queue)
+PR-2 gets enqueued (conflicts with PR-1)
+Test whether:
+  * this kicks back PR-2 (and with a reason?)
+
