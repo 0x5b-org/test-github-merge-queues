@@ -69,3 +69,7 @@ PR-2 gets enqueued (conflicts with PR-1)
 Test whether:
   * this kicks back PR-2 (and with a reason?)
 
+### Pushes
+
+How many pushes if you have two PRs in the same queue going to main at the same time
+
