@@ -45,9 +45,7 @@ describe('Without merge conflicts', () => {
     // Branch deletion will close any PRs
   }, 30_000);
 
-  let _mainSha: string;
   let pull: Awaited<ReturnType<Octokit['rest']['pulls']['create']>>['data'];
-  let mainMutationTime: Date;
 
   // Setup
   beforeAll(async () => {
@@ -61,7 +59,8 @@ describe('Without merge conflicts', () => {
       check_response_timeout_minutes: 5
     });
     
-    _mainSha = await createMainBranch(apptokit, branchPrefix);
+    // Create main branch
+    await createMainBranch(apptokit, branchPrefix);
 
     // Create feature branch
     await createFeatureBranch(apptokit, branchPrefix, '1');
@@ -80,12 +79,7 @@ describe('Without merge conflicts', () => {
     // Wait a further 10s for the job to checkout the unmutated main
     console.log('Waiting for merge queue job to checkout unmutated main...');
     await setTimeout(3000);
-    
-    // Record timestamp before mutating main
-    mainMutationTime = new Date();
-    
-    console.log('Mutation time recorded:', mainMutationTime);
-    
+
     // Mutate main branch with a direct commit to simulate a release
     const { data: releaseCommit } = await apptokit.rest.repos.createOrUpdateFileContents({
       owner: '0x5b-org',
@@ -110,6 +104,20 @@ describe('Without merge conflicts', () => {
       });
 
       expect(pr.merged).toBe(true);
+    });
+
+    it('should have run two checks', { retry: 10, timeout: 40_000 }, async ({ expect, onTestFailed }) => {
+      onTestFailed(async () => { await setTimeout(5_000); });
+
+      const runs = await apptokit.paginate(apptokit.rest.actions.listWorkflowRunsForRepo, {
+        owner: '0x5b-org',
+        repo: 'test-github-merge-queues',
+        event: 'merge_group'
+      });
+
+      const prRuns = runs.filter(run => run.head_branch?.startsWith(`gh-readonly-queue/${branchPrefix}/main/pr-${pull.number}-`));
+
+      expect(prRuns?.length).toBe(2);
     });
   });
 });
@@ -136,7 +144,6 @@ describe('With merge conflicts', () => {
   }, 30_000);
 
   let pull: Awaited<ReturnType<Octokit['rest']['pulls']['create']>>['data'];
-  let mainMutationTime: Date;
 
   // Setup
   beforeAll(async () => {
@@ -169,12 +176,7 @@ describe('With merge conflicts', () => {
     // Wait a further 10s for the job to checkout the unmutated main
     console.log('Waiting for merge queue job to checkout unmutated main...');
     await setTimeout(3000);
-    
-    // Record timestamp before mutating main
-    mainMutationTime = new Date();
-    
-    console.log('Mutation time recorded:', mainMutationTime);
-    
+
     // Mutate main branch with a direct commit to simulate a release
     const { data: releaseCommit } = await apptokit.rest.repos.createOrUpdateFileContents({
       owner: '0x5b-org',
@@ -192,7 +194,7 @@ describe('With merge conflicts', () => {
     it('should merge the PR', { retry: 10 }, async ({ expect, onTestFailed }) => {
       onTestFailed(async () => { await setTimeout(5_000); });
 
-      const { data: pr }= await apptokit.rest.pulls.get({
+      const { data: pr } = await apptokit.rest.pulls.get({
         owner: '0x5b-org',
         repo: 'test-github-merge-queues',
         pull_number: pull.number
@@ -201,5 +203,19 @@ describe('With merge conflicts', () => {
       expect(pr.merged).toBe(false);
       expect(pr.mergeable_state).toBe('dirty');
     });
+  });
+
+  it('should have run one check', { retry: 10, timeout: 40_000 }, async ({ expect, onTestFailed }) => {
+    onTestFailed(async () => { await setTimeout(5_000); });
+
+    const runs = await apptokit.paginate(apptokit.rest.actions.listWorkflowRunsForRepo, {
+      owner: '0x5b-org',
+      repo: 'test-github-merge-queues',
+      event: 'merge_group'
+    });
+
+    const prRuns = runs.filter(run => run.head_branch?.startsWith(`gh-readonly-queue/${branchPrefix}/main/pr-${pull.number}-`));
+
+    expect(prRuns?.length).toBe(1);
   });
 });

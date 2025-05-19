@@ -261,3 +261,6 @@ export async function waitForMergeQueueChecks(octokit: Octokit, branchPrefix: st
   
   console.warn(`No merge queue checks found for PR-${prNumber} after 30 seconds`);
 }
+
+// Export alias for queueEntries as queue for backward compatibility
+export const queue = queueEntries;

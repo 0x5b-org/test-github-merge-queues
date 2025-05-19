@@ -18,7 +18,7 @@ gitGraph
     branch feature-1
     checkout feature-1
     commit
-    commit id: "enqueue 1" tag: "MQ build 1"
+    commit id: "enqueue 1" tag: "merge-queue build 1"
 
     checkout main
     commit tag: "release 0"
